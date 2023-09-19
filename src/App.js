@@ -14,7 +14,11 @@ function App() {
         </div>
         <div class="btn-wrapper">
  <a href="https://hax.psu.edu">
-   <button>Details</button> </a> </div>
+   <button>Details</button> 
+   <button id="btn">Duplicator</button>
+  <button id="colorBtn">BGColorChanger</button>
+  <button id="Headingbtn">HeadingChanger</button>
+  <button id="dltbtn">DeleteCard</button></a> </div>
       </div>
     );
   }
