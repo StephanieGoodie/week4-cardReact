@@ -6,19 +6,16 @@ function App() {
 
     return (
       <div className="Card">
-         <h1>Hello World!</h1>
-        <h1>Welcome to my card</h1>
-        <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
-        <div className="paragraph">
-          <p>I really hate his frog</p>
-        </div>
-        <div class="btn-wrapper">
- <a href="https://hax.psu.edu">
-   <button>Details</button> </a> 
-   <button id="btn">Duplicator</button>
+         <div class="card-content"> 
+      <h2>Two Pod Realty</h2> 
+      <p id="description">Real Estate Company Focused on delivering the best properties in the State College Area</p> 
+      <button class="details-button" id="detailsBtn">Details</button>
+    </div> 
+  
+  <button id="btn">Duplicator</button>
   <button id="colorBtn">BGColorChanger</button>
   <button id="Headingbtn">HeadingChanger</button>
-  <button id="dltbtn">DeleteCard</button></div>
+  <button id="dltbtn">DeleteCard</button>
       </div>
     );
   }
