@@ -5,7 +5,7 @@ function App() {
 
 
     return (
-      <><div className="Card">
+      <><div className="card">
         <img alt="real estate logo" src="https://media.istockphoto.com/id/1369053959/vector/house.jpg?s=612x612&w=0&k=20&c=iA7YgnbjMT89OD8WDtINPoD6p4-sY-GVp1Tt0YdeqxA="></img>
         <div class="card-content">
           <h2>Two Pod Realty</h2>
