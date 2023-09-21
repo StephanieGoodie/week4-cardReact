@@ -5,7 +5,7 @@ function App() {
 
 
     return (
-      <div className="App">
+      <div className="Card">
          <h1>Hello World!</h1>
         <h1>Welcome to my card</h1>
         <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
